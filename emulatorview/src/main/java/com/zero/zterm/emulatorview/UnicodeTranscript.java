@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm.emulatorview;
+package com.zero.zterm.emulatorview;
 
 import android.util.Log;
 
-import com.offsec.nhterm.emulatorview.compat.AndroidCharacterCompat;
-import com.offsec.nhterm.emulatorview.compat.AndroidCompat;
+import com.zero.zterm.emulatorview.compat.AndroidCharacterCompat;
+import com.zero.zterm.emulatorview.compat.AndroidCompat;
 
 /**
  * A backing store for a TranscriptScreen.

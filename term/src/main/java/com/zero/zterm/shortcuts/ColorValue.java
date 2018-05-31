@@ -1,8 +1,8 @@
 //From the desk of Frank P. Westlake; public domain.
-package com.offsec.nhterm.shortcuts;
+package com.zero.zterm.shortcuts;
 
-import com.offsec.nhterm.R;
-import com.offsec.nhterm.compat.AlertDialogCompat;
+import com.zero.zterm.R;
+import com.zero.zterm.compat.AlertDialogCompat;
 import android.app.        AlertDialog;
 import android.content.    Context;
 import android.content.    DialogInterface;

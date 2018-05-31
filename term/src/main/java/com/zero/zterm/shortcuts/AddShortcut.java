@@ -1,5 +1,5 @@
 //From the desk of Frank P. Westlake; public domain.
-package com.offsec.nhterm.shortcuts;
+package com.zero.zterm.shortcuts;
 
 import android.content.    Context;
 import android.content.    DialogInterface;
@@ -20,13 +20,13 @@ import android.widget.     LinearLayout;
 import android.widget.     ScrollView;
 import android.widget.     TextView;
 import android.widget.     EditText;
-import com.offsec.nhterm.R;
-import com.offsec.nhterm.RemoteInterface;
-import com.offsec.nhterm.RunShortcut;
-import com.offsec.nhterm.TermDebug;
-import com.offsec.nhterm.compat.AlertDialogCompat;
-import com.offsec.nhterm.compat.PRNGFixes;
-import com.offsec.nhterm.util.ShortcutEncryption;
+import com.zero.zterm.R;
+import com.zero.zterm.RemoteInterface;
+import com.zero.zterm.RunShortcut;
+import com.zero.zterm.TermDebug;
+import com.zero.zterm.compat.AlertDialogCompat;
+import com.zero.zterm.compat.PRNGFixes;
+import com.zero.zterm.util.ShortcutEncryption;
 
 import java.io.            File;
 import java.security.      GeneralSecurityException;
@@ -100,7 +100,7 @@ public class      AddShortcut
                     Intent pickerIntent=new Intent();
                     if(SP.getBoolean("useInternalScriptFinder", false))
                     {
-                      pickerIntent.setClass(getApplicationContext(), com.offsec.nhterm.shortcuts.FSNavigator.class)
+                      pickerIntent.setClass(getApplicationContext(), com.zero.zterm.shortcuts.FSNavigator.class)
                       .setData(Uri.fromFile(get))
                       .putExtra("title", getString(R.string.addshortcut_navigator_title));//"SELECT SHORTCUT TARGET")
                     }
@@ -126,7 +126,7 @@ public class      AddShortcut
     lv.addView(layoutTextViewH(getString(R.string.addshortcut_shortcut_label),  et[NAME]));
 
     final ImageView img=new ImageView(context);
-                    img.setImageResource(com.offsec.nhterm.R.mipmap.ic_launcher);
+                    img.setImageResource(com.zero.zterm.R.mipmap.ic_launcher);
                     img.setMaxHeight(100);
                     img.setTag(0xFFFFFFFF);
                     img.setMaxWidth(100);

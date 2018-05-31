@@ -1,4 +1,4 @@
-package com.offsec.nhterm.libtermexec;
+package com.zero.zterm.libtermexec;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

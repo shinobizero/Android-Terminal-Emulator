@@ -1,4 +1,4 @@
-package com.offsec.nhterm.emulatorview.compat;
+package com.zero.zterm.emulatorview.compat;
 
 /**
  * Keycode constants and modifier masks for use with keyboard event listeners.

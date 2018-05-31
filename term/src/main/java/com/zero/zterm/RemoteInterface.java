@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import java.io.File;
 import java.io.IOException;
@@ -31,18 +31,18 @@ import android.os.IBinder;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.offsec.nhterm.emulatorview.TermSession;
+import com.zero.zterm.emulatorview.TermSession;
 
-import com.offsec.nhterm.util.SessionList;
-import com.offsec.nhterm.util.TermSettings;
+import com.zero.zterm.util.SessionList;
+import com.zero.zterm.util.TermSettings;
 
 public class RemoteInterface extends Activity {
-    protected static final String PRIVACT_OPEN_NEW_WINDOW = "com.offsec.nhterm.private.OPEN_NEW_WINDOW";
-    protected static final String PRIVACT_SWITCH_WINDOW = "com.offsec.nhterm.private.SWITCH_WINDOW";
+    protected static final String PRIVACT_OPEN_NEW_WINDOW = "com.zero.zterm.private.OPEN_NEW_WINDOW";
+    protected static final String PRIVACT_SWITCH_WINDOW = "com.zero.zterm.private.SWITCH_WINDOW";
 
-    protected static final String PRIVEXTRA_TARGET_WINDOW = "com.offsec.nhterm.private.target_window";
+    protected static final String PRIVEXTRA_TARGET_WINDOW = "com.zero.zterm.private.target_window";
 
-    protected static final String PRIVACT_ACTIVITY_ALIAS = "com.offsec.nhterm.TermInternal";
+    protected static final String PRIVACT_ACTIVITY_ALIAS = "com.zero.zterm.TermInternal";
 
     private TermSettings mSettings;
 

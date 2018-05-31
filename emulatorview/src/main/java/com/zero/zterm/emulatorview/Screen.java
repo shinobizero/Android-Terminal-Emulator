@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm.emulatorview;
+package com.zero.zterm.emulatorview;
 
 /**
  * An abstract screen interface. A terminal screen stores lines of text. (The

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
-import com.offsec.nhterm.util.ShortcutEncryption;
+import com.zero.zterm.util.ShortcutEncryption;
 
 import java.security.GeneralSecurityException;
 
@@ -24,10 +24,10 @@ import android.content.Intent;
 import android.util.Log;
 
 public final class RunShortcut extends RemoteInterface {
-    public static final String ACTION_RUN_SHORTCUT = "com.offsec.nhterm.RUN_SHORTCUT";
+    public static final String ACTION_RUN_SHORTCUT = "com.zero.zterm.RUN_SHORTCUT";
 
-    public static final String EXTRA_WINDOW_HANDLE = "com.offsec.nhterm.window_handle";
-    public static final String EXTRA_SHORTCUT_COMMAND = "com.offsec.nhterm.iShortcutCommand";
+    public static final String EXTRA_WINDOW_HANDLE = "com.zero.zterm.window_handle";
+    public static final String EXTRA_SHORTCUT_COMMAND = "com.zero.zterm.iShortcutCommand";
 
     @Override
     protected void handleIntent() {

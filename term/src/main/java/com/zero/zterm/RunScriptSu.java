@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import android.content.Intent;
 import android.util.Log;
@@ -28,10 +28,10 @@ import android.util.Log;
  */
 
 public final class RunScriptSu extends RemoteInterface {
-    private static final String ACTION_RUN_SCRIPT_NH = "com.offsec.nhterm.RUN_SCRIPT_SU";
+    private static final String ACTION_RUN_SCRIPT_NH = "com.zero.zterm.RUN_SCRIPT_SU";
 
-    private static final String EXTRA_WINDOW_HANDLE = "com.offsec.nhterm.window_handle";
-    private static final String EXTRA_INITIAL_COMMAND = "com.offsec.nhterm.iInitialCommand";
+    private static final String EXTRA_WINDOW_HANDLE = "com.zero.zterm.window_handle";
+    private static final String EXTRA_INITIAL_COMMAND = "com.zero.zterm.iInitialCommand";
 
     @Override
     protected void handleIntent() {

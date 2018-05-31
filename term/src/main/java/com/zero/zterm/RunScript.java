@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import android.content.Intent;
 import android.util.Log;
@@ -27,10 +27,10 @@ import android.util.Log;
  * The old procedure of using Intent.Extra is still available but is discouraged.
  */
 public final class RunScript extends RemoteInterface {
-    private static final String ACTION_RUN_SCRIPT = "com.offsec.nhterm.RUN_SCRIPT";
+    private static final String ACTION_RUN_SCRIPT = "com.zero.zterm.RUN_SCRIPT";
 
-    private static final String EXTRA_WINDOW_HANDLE = "com.offsec.nhterm.window_handle";
-    private static final String EXTRA_INITIAL_COMMAND = "com.offsec.nhterm.iInitialCommand";
+    private static final String EXTRA_WINDOW_HANDLE = "com.zero.zterm.window_handle";
+    private static final String EXTRA_INITIAL_COMMAND = "com.zero.zterm.iInitialCommand";
     private static final String ANDROID_SHELL = "/system/bin/sh -";
     @Override
     protected void handleIntent() {

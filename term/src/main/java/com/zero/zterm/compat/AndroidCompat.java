@@ -1,4 +1,4 @@
-package com.offsec.nhterm.compat;
+package com.zero.zterm.compat;
 
 /**
  * The classes in this package take advantage of the fact that the VM does

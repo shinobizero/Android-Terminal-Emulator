@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm.util;
+package com.zero.zterm.util;
 
-import com.offsec.nhterm.R;
+import com.zero.zterm.R;
 
 import android.content.SharedPreferences;
 import android.content.res.Resources;

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import android.os.Handler;
 import android.os.Message;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
-import com.offsec.nhterm.compat.FileCompat;
-import com.offsec.nhterm.util.TermSettings;
+import com.zero.zterm.compat.FileCompat;
+import com.zero.zterm.util.TermSettings;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -98,7 +98,7 @@ public class ShellTermSession extends GenericTermSession {
         }
         String[] env = new String[3];
         env[0] = "TERM=" + settings.getTermType();
-        env[1] = "PATH=" + path + ":/data/data/com.offsec.nethunter/files/scripts/";
+        env[1] = "PATH=" + path + ":/data/data/com.zero.nethunter/files/scripts/";
         env[2] = "HOME=" + settings.getHomePath();
        // Log.d("Initialize Sess", settings.getShell());
         mProcId = createSubprocess(mShell, env);

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm.emulatorview.compat;
+package com.zero.zterm.emulatorview.compat;
 
 import android.annotation.TargetApi;
 import android.os.Build;

@@ -1,4 +1,4 @@
-package com.offsec.nhterm.emulatorview.compat;
+package com.zero.zterm.emulatorview.compat;
 
 /**
  * The classes in this package take advantage of the fact that the VM does

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -22,20 +22,20 @@ import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.text.TextUtils;
 
-import com.offsec.nhterm.R;
+import com.zero.zterm.R;
 
-import com.offsec.nhterm.compat.ActionBarCompat;
-import com.offsec.nhterm.compat.ActivityCompat;
-import com.offsec.nhterm.compat.AndroidCompat;
-import com.offsec.nhterm.compat.MenuItemCompat;
-import com.offsec.nhterm.emulatorview.EmulatorView;
-import com.offsec.nhterm.emulatorview.TermSession;
-import com.offsec.nhterm.emulatorview.UpdateCallback;
-import com.offsec.nhterm.emulatorview.compat.ClipboardManagerCompat;
-import com.offsec.nhterm.emulatorview.compat.ClipboardManagerCompatFactory;
-import com.offsec.nhterm.emulatorview.compat.KeycodeConstants;
-import com.offsec.nhterm.util.SessionList;
-import com.offsec.nhterm.util.TermSettings;
+import com.zero.zterm.compat.ActionBarCompat;
+import com.zero.zterm.compat.ActivityCompat;
+import com.zero.zterm.compat.AndroidCompat;
+import com.zero.zterm.compat.MenuItemCompat;
+import com.zero.zterm.emulatorview.EmulatorView;
+import com.zero.zterm.emulatorview.TermSession;
+import com.zero.zterm.emulatorview.UpdateCallback;
+import com.zero.zterm.emulatorview.compat.ClipboardManagerCompat;
+import com.zero.zterm.emulatorview.compat.ClipboardManagerCompatFactory;
+import com.zero.zterm.emulatorview.compat.KeycodeConstants;
+import com.zero.zterm.util.SessionList;
+import com.zero.zterm.util.TermSettings;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -126,7 +126,7 @@ public class Term extends Activity implements UpdateCallback, SharedPreferences.
     private Intent TSIntent;
 
     public static final int REQUEST_CHOOSE_WINDOW = 1;
-    public static final String EXTRA_WINDOW_ID = "com.offsec.nhterm.window_id";
+    public static final String EXTRA_WINDOW_ID = "com.zero.zterm.window_id";
     private int onResumeSelectWindow = -1;
     private ComponentName mPrivateAlias;
 
@@ -137,10 +137,10 @@ public class Term extends Activity implements UpdateCallback, SharedPreferences.
 
     private boolean mBackKeyPressed;
 
-    private static final String ACTION_PATH_BROADCAST = "com.offsec.nhterm.broadcast.APPEND_TO_PATH";
-    private static final String ACTION_PATH_PREPEND_BROADCAST = "com.offsec.nhterm.broadcast.PREPEND_TO_PATH";
-    private static final String PERMISSION_PATH_BROADCAST = "com.offsec.nhterm.permission.APPEND_TO_PATH";
-    private static final String PERMISSION_PATH_PREPEND_BROADCAST = "com.offsec.nhterm.permission.PREPEND_TO_PATH";
+    private static final String ACTION_PATH_BROADCAST = "com.zero.zterm.broadcast.APPEND_TO_PATH";
+    private static final String ACTION_PATH_PREPEND_BROADCAST = "com.zero.zterm.broadcast.PREPEND_TO_PATH";
+    private static final String PERMISSION_PATH_BROADCAST = "com.zero.zterm.permission.APPEND_TO_PATH";
+    private static final String PERMISSION_PATH_PREPEND_BROADCAST = "com.zero.zterm.permission.PREPEND_TO_PATH";
     private int mPendingPathBroadcasts = 0;
 
     private Integer selectedTab;
@@ -1003,7 +1003,7 @@ public class Term extends Activity implements UpdateCallback, SharedPreferences.
 
         String msg = "";
 
-        if (Objects.equals(text, "/data/data/com.offsec.nethunter/files/scripts/bootkali")){
+        if (Objects.equals(text, "/data/data/com.zero.nethunter/files/scripts/bootkali")){
             msg = "Please run Nethunter Application to generate!";
         } else if (Objects.equals(text, "/data/local/nhsystem/kali-armhf")){
             msg = "Missing chroot.  You need to install from Chroot Manager";

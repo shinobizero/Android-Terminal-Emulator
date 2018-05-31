@@ -1,4 +1,4 @@
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 
 import java.io.BufferedReader;

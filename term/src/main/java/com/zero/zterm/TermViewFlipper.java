@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -30,13 +30,13 @@ import android.widget.Toast;
 import android.widget.ViewFlipper;
 import android.content.SharedPreferences;
 
-import com.offsec.nhterm.R;
-import com.offsec.nhterm.emulatorview.EmulatorView;
-import com.offsec.nhterm.emulatorview.TermSession;
-import com.offsec.nhterm.emulatorview.UpdateCallback;
+import com.zero.zterm.R;
+import com.zero.zterm.emulatorview.EmulatorView;
+import com.zero.zterm.emulatorview.TermSession;
+import com.zero.zterm.emulatorview.UpdateCallback;
 
-import com.offsec.nhterm.compat.AndroidCompat;
-import com.offsec.nhterm.util.TermSettings;
+import com.zero.zterm.compat.AndroidCompat;
+import com.zero.zterm.util.TermSettings;
 
 public class TermViewFlipper extends ViewFlipper implements Iterable<View> {
     private Context context;

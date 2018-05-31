@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
-import com.offsec.nhterm.R;
+import com.zero.zterm.R;
 
-import com.offsec.nhterm.compat.ActionBarCompat;
-import com.offsec.nhterm.compat.ActivityCompat;
-import com.offsec.nhterm.compat.AndroidCompat;
+import com.zero.zterm.compat.ActionBarCompat;
+import com.zero.zterm.compat.ActivityCompat;
+import com.zero.zterm.compat.AndroidCompat;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm.compat;
+package com.zero.zterm.compat;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.InvocationTargetException;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import java.io.*;
 import java.lang.reflect.Field;
@@ -23,12 +23,12 @@ import android.os.Build;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
-import com.offsec.nhterm.FdHelperHoneycomb;
-import com.offsec.nhterm.emulatorview.ColorScheme;
-import com.offsec.nhterm.emulatorview.TermSession;
-import com.offsec.nhterm.emulatorview.UpdateCallback;
+import com.zero.zterm.FdHelperHoneycomb;
+import com.zero.zterm.emulatorview.ColorScheme;
+import com.zero.zterm.emulatorview.TermSession;
+import com.zero.zterm.emulatorview.UpdateCallback;
 
-import com.offsec.nhterm.util.TermSettings;
+import com.zero.zterm.util.TermSettings;
 
 /**
  * A terminal session, consisting of a TerminalEmulator, a TranscriptScreen,

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import android.app.Activity;
 import android.content.Context;
@@ -25,11 +25,11 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.offsec.nhterm.R;
-import com.offsec.nhterm.emulatorview.TermSession;
-import com.offsec.nhterm.emulatorview.UpdateCallback;
+import com.zero.zterm.R;
+import com.zero.zterm.emulatorview.TermSession;
+import com.zero.zterm.emulatorview.UpdateCallback;
 
-import com.offsec.nhterm.util.SessionList;
+import com.zero.zterm.util.SessionList;
 
 public class WindowListAdapter extends BaseAdapter implements UpdateCallback {
     private SessionList mSessions;

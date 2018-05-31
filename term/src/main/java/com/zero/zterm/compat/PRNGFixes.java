@@ -8,7 +8,7 @@
  * freely, as long as the origin is not misrepresented.
  */
 
-package com.offsec.nhterm.compat;
+package com.zero.zterm.compat;
 
 /**
  * Copied from

@@ -1,4 +1,4 @@
-package com.offsec.nhterm.emulatorview;
+package com.zero.zterm.emulatorview;
 
 class GrowableIntArray {
     GrowableIntArray(int initalCapacity) {

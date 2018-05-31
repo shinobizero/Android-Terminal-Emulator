@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm.emulatorview;
+package com.zero.zterm.emulatorview;
 
 /**
  * A class describing a color scheme for an {@link EmulatorView}.

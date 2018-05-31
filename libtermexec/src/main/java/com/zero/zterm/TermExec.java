@@ -1,4 +1,4 @@
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import android.annotation.TargetApi;
 import android.os.*;
@@ -22,7 +22,7 @@ public class TermExec {
         System.loadLibrary("jackpal-termexec2nhj1");
     }
 
-    public static final String SERVICE_ACTION_V1 = "com.offsec.nhterm.action.START_TERM.v1";
+    public static final String SERVICE_ACTION_V1 = "com.zero.zterm.action.START_TERM.v1";
 
     private static Field descriptorField;
 

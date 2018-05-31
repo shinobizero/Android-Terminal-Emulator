@@ -1,4 +1,4 @@
-package com.offsec.nhterm.shortcuts;
+package com.zero.zterm.shortcuts;
 
 import android.graphics.  Bitmap;
 import android.graphics.  Bitmap.Config;

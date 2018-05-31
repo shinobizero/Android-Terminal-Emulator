@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm.util;
+package com.zero.zterm.util;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Collection;
 
-import com.offsec.nhterm.emulatorview.TermSession;
-import com.offsec.nhterm.emulatorview.UpdateCallback;
+import com.zero.zterm.emulatorview.TermSession;
+import com.zero.zterm.emulatorview.UpdateCallback;
 
 /**
  * An ArrayList of TermSessions which allows users to register callbacks in

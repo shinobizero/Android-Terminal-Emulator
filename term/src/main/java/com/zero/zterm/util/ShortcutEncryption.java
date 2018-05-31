@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm.util;
+package com.zero.zterm.util;
 
-import com.offsec.nhterm.compat.Base64;
+import com.zero.zterm.compat.Base64;
 
 import android.content.Context;
 import android.content.SharedPreferences;

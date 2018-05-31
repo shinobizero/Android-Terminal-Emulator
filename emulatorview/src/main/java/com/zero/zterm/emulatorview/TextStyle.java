@@ -1,4 +1,4 @@
-package com.offsec.nhterm.emulatorview;
+package com.zero.zterm.emulatorview;
 
 final class TextStyle {
     // Effect bitmasks:

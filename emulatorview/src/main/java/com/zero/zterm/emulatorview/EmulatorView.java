@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm.emulatorview;
+package com.zero.zterm.emulatorview;
 
-import com.offsec.nhterm.emulatorview.compat.AndroidCompat;
-import com.offsec.nhterm.emulatorview.compat.ClipboardManagerCompat;
-import com.offsec.nhterm.emulatorview.compat.ClipboardManagerCompatFactory;
-import com.offsec.nhterm.emulatorview.compat.KeycodeConstants;
-import com.offsec.nhterm.emulatorview.compat.Patterns;
+import com.zero.zterm.emulatorview.compat.AndroidCompat;
+import com.zero.zterm.emulatorview.compat.ClipboardManagerCompat;
+import com.zero.zterm.emulatorview.compat.ClipboardManagerCompatFactory;
+import com.zero.zterm.emulatorview.compat.KeycodeConstants;
+import com.zero.zterm.emulatorview.compat.Patterns;
 
 import java.io.IOException;
 import java.util.Arrays;

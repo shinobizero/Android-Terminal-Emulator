@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import android.app.NotificationManager;
 import android.app.Service;
@@ -36,13 +36,13 @@ import android.support.v4.app.NotificationCompat;
 import android.app.PendingIntent;
 
 
-import com.offsec.nhterm.R;
-import com.offsec.nhterm.emulatorview.TermSession;
+import com.zero.zterm.R;
+import com.zero.zterm.emulatorview.TermSession;
 
-import com.offsec.nhterm.compat.ServiceForegroundCompat;
-import com.offsec.nhterm.libtermexec.v1.*;
-import com.offsec.nhterm.util.SessionList;
-import com.offsec.nhterm.util.TermSettings;
+import com.zero.zterm.compat.ServiceForegroundCompat;
+import com.zero.zterm.libtermexec.v1.*;
+import com.zero.zterm.util.SessionList;
+import com.zero.zterm.util.TermSettings;
 
 import java.util.UUID;
 

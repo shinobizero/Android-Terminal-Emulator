@@ -1,4 +1,4 @@
-package com.offsec.nhterm.emulatorview;
+package com.zero.zterm.emulatorview;
 
 /**
  * Utility class for dealing with text style lines.

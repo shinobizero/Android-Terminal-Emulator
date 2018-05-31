@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import android.app.ListActivity;
 import android.content.ComponentName;
@@ -30,12 +30,12 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
-import com.offsec.nhterm.R;
+import com.zero.zterm.R;
 
-import com.offsec.nhterm.compat.ActionBarCompat;
-import com.offsec.nhterm.compat.ActivityCompat;
-import com.offsec.nhterm.compat.AndroidCompat;
-import com.offsec.nhterm.util.SessionList;
+import com.zero.zterm.compat.ActionBarCompat;
+import com.zero.zterm.compat.ActivityCompat;
+import com.zero.zterm.compat.AndroidCompat;
+import com.zero.zterm.util.SessionList;
 
 public class WindowList extends ListActivity {
     private SessionList sessions;

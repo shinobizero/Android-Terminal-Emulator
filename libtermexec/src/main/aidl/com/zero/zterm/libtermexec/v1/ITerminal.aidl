@@ -1,4 +1,4 @@
-package com.offsec.nhterm.libtermexec.v1;
+package com.zero.zterm.libtermexec.v1;
 
 import android.content.IntentSender;
 import android.os.ParcelFileDescriptor;

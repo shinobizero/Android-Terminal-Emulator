@@ -1,4 +1,4 @@
-package com.offsec.nhterm.compat;
+package com.zero.zterm.compat;
 
 import android.view.MenuItem;
 

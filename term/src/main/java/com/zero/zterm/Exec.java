@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 import android.os.Build;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;

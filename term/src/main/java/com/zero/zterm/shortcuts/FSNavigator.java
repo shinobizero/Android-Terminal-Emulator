@@ -1,5 +1,5 @@
 //From the desk of Frank P. Westlake; public domain.
-package com.offsec.nhterm.shortcuts;
+package com.zero.zterm.shortcuts;
 
 import android.content.             Intent;
 import android.content.             SharedPreferences;
@@ -22,7 +22,7 @@ import android.widget.              Toast;
 import java.io.                     File;
 import java.io.                     IOException;
 import java.util.                   HashMap;
-import com.offsec.nhterm.         R;
+import com.zero.zterm.         R;
 
 public class      FSNavigator
        extends    android.app.Activity

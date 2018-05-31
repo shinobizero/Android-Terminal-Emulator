@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm.compat;
+package com.zero.zterm.compat;
 
 import java.io.File;
 

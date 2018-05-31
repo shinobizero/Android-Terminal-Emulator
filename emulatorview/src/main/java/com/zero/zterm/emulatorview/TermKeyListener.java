@@ -1,7 +1,7 @@
-package com.offsec.nhterm.emulatorview;
+package com.zero.zterm.emulatorview;
 
-import com.offsec.nhterm.emulatorview.compat.AndroidCompat;
-import com.offsec.nhterm.emulatorview.compat.KeyCharacterMapCompat;
+import com.zero.zterm.emulatorview.compat.AndroidCompat;
+import com.zero.zterm.emulatorview.compat.KeyCharacterMapCompat;
 
 import java.io.IOException;
 import java.util.Map;
@@ -10,7 +10,7 @@ import java.util.HashMap;
 import android.util.Log;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
-import static com.offsec.nhterm.emulatorview.compat.KeycodeConstants.*;
+import static com.zero.zterm.emulatorview.compat.KeycodeConstants.*;
 
 /**
  * An ASCII key listener. Supports control characters and escape. Keeps track of

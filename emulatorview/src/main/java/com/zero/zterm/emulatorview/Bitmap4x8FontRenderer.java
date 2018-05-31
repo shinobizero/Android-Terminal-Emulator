@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm.emulatorview;
+package com.zero.zterm.emulatorview;
 
-import com.offsec.nhterm.emulatorview.compat.AndroidCompat;
+import com.zero.zterm.emulatorview.compat.AndroidCompat;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;

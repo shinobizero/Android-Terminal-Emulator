@@ -1,8 +1,8 @@
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import android.os.ParcelFileDescriptor;
 import android.text.TextUtils;
-import com.offsec.nhterm.util.TermSettings;
+import com.zero.zterm.util.TermSettings;
 
 class BoundSession extends GenericTermSession {
     private final String issuerTitle;

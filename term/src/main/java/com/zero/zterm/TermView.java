@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.offsec.nhterm;
+package com.zero.zterm;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
 
-import com.offsec.nhterm.emulatorview.ColorScheme;
-import com.offsec.nhterm.emulatorview.EmulatorView;
-import com.offsec.nhterm.emulatorview.TermSession;
+import com.zero.zterm.emulatorview.ColorScheme;
+import com.zero.zterm.emulatorview.EmulatorView;
+import com.zero.zterm.emulatorview.TermSession;
 
-import com.offsec.nhterm.util.TermSettings;
+import com.zero.zterm.util.TermSettings;
 
 public class TermView extends EmulatorView {
     public TermView(Context context, TermSession session, DisplayMetrics metrics) {

@@ -897,43 +897,6 @@ public class Term extends Activity implements UpdateCallback, SharedPreferences.
                                     show_nosupersu();
                                 }
                             }
-                        })
-                .setNeutralButton("Kali",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                Log.d("Kali", "Kali");
-
-                                if(CheckRoot.isDeviceRooted()){
-                                    Log.d("isDeviceRooted","Device is rooted!");
-
-                                String chroot_dir = "/data/local/nhsystem/kali-armhf"; // Not sure if I can wildcard this
-
-                                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-                                        if (!dir_exists(chroot_dir)){
-                                            NotFound(chroot_dir);
-                                        } else {
-                                            TermSession session = null;
-                                            try {
-                                                session = createTermSession(getBaseContext(), settings, "", ShellType.KALI_LOGIN_SHELL);
-                                                session.setFinishCallback(mTermService);
-                                            } catch (IOException e) {
-                                                e.printStackTrace();
-                                            }
-                                            mTermSessions.add(session);
-                                            if (from.equals("doCreateNewWindow")) {
-                                                end_doCreateNewWindow(session);
-                                            }
-                                            if (from.equals("populateViewFlipper")) {
-                                                end_populateViewFlipper();
-                                            }
-                                        }
-                                    }
-                                } else {
-                                    // ALERT! WHY YOU NO ROOT!
-                                    Log.d("isDeviceRooted","Device is not rooted!");
-                                    show_nosupersu();
-                                }
-                            }
                         });
 
         alertDialog = alertDialogBuilder.create();
